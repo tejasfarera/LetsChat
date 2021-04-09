@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04491D1F26203C8E00F35EB8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04491D1E26203C8E00F35EB8 /* GoogleService-Info.plist */; };
 		0473D41426203A5300880773 /* LetsChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473D41326203A5300880773 /* LetsChatApp.swift */; };
 		0473D41626203A5300880773 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473D41526203A5300880773 /* ContentView.swift */; };
 		0473D41826203A5400880773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0473D41726203A5400880773 /* Assets.xcassets */; };
 		0473D41B26203A5400880773 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0473D41A26203A5400880773 /* Preview Assets.xcassets */; };
 		0473D42626203A5400880773 /* LetsChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473D42526203A5400880773 /* LetsChatTests.swift */; };
 		0473D43126203A5400880773 /* LetsChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473D43026203A5400880773 /* LetsChatUITests.swift */; };
+		50BCAC841459216942AA8223 /* Pods_LetsChat_LetsChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7360248A23493D1E0106571F /* Pods_LetsChat_LetsChatUITests.framework */; };
+		92C114B1A55C824CF2A7D295 /* Pods_LetsChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F164B2D6B2D9E14A0AAA1F9 /* Pods_LetsChat.framework */; };
+		B6A3D6ECB96300A3EA2D0799 /* Pods_LetsChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958F66BFCD8D568452858E7C /* Pods_LetsChatTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04491D1E26203C8E00F35EB8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0473D41026203A5300880773 /* LetsChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0473D41326203A5300880773 /* LetsChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsChatApp.swift; sourceTree = "<group>"; };
 		0473D41526203A5300880773 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +50,15 @@
 		0473D42C26203A5400880773 /* LetsChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0473D43026203A5400880773 /* LetsChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsChatUITests.swift; sourceTree = "<group>"; };
 		0473D43226203A5400880773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E944F4B045BED0AF63BC7B /* Pods-LetsChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat.debug.xcconfig"; path = "Target Support Files/Pods-LetsChat/Pods-LetsChat.debug.xcconfig"; sourceTree = "<group>"; };
+		1F464710BC4FC3B2D9EE21E6 /* Pods-LetsChat-LetsChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat-LetsChatUITests.release.xcconfig"; path = "Target Support Files/Pods-LetsChat-LetsChatUITests/Pods-LetsChat-LetsChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		41A48D9B0358AD9CA7847C09 /* Pods-LetsChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChatTests.debug.xcconfig"; path = "Target Support Files/Pods-LetsChatTests/Pods-LetsChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57BDD99CC6F442CE9AB0FF99 /* Pods-LetsChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChatTests.release.xcconfig"; path = "Target Support Files/Pods-LetsChatTests/Pods-LetsChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		7360248A23493D1E0106571F /* Pods_LetsChat_LetsChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsChat_LetsChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F164B2D6B2D9E14A0AAA1F9 /* Pods_LetsChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		958F66BFCD8D568452858E7C /* Pods_LetsChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68A6DC1631BDF89964877DA /* Pods-LetsChat-LetsChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat-LetsChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-LetsChat-LetsChatUITests/Pods-LetsChat-LetsChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F58A18BF27DCF93B1EC1FCF7 /* Pods-LetsChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat.release.xcconfig"; path = "Target Support Files/Pods-LetsChat/Pods-LetsChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C114B1A55C824CF2A7D295 /* Pods_LetsChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A3D6ECB96300A3EA2D0799 /* Pods_LetsChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BCAC841459216942AA8223 /* Pods_LetsChat_LetsChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,8 @@
 				0473D42426203A5400880773 /* LetsChatTests */,
 				0473D42F26203A5400880773 /* LetsChatUITests */,
 				0473D41126203A5300880773 /* Products */,
+				29D1E22A2EA28B429183741C /* Pods */,
+				FF3E8A6C41314069D0D9D495 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +118,7 @@
 				0473D41526203A5300880773 /* ContentView.swift */,
 				0473D41726203A5400880773 /* Assets.xcassets */,
 				0473D41C26203A5400880773 /* Info.plist */,
+				04491D1E26203C8E00F35EB8 /* GoogleService-Info.plist */,
 				0473D41926203A5400880773 /* Preview Content */,
 			);
 			path = LetsChat;
@@ -130,6 +150,30 @@
 			path = LetsChatUITests;
 			sourceTree = "<group>";
 		};
+		29D1E22A2EA28B429183741C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11E944F4B045BED0AF63BC7B /* Pods-LetsChat.debug.xcconfig */,
+				F58A18BF27DCF93B1EC1FCF7 /* Pods-LetsChat.release.xcconfig */,
+				C68A6DC1631BDF89964877DA /* Pods-LetsChat-LetsChatUITests.debug.xcconfig */,
+				1F464710BC4FC3B2D9EE21E6 /* Pods-LetsChat-LetsChatUITests.release.xcconfig */,
+				41A48D9B0358AD9CA7847C09 /* Pods-LetsChatTests.debug.xcconfig */,
+				57BDD99CC6F442CE9AB0FF99 /* Pods-LetsChatTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF3E8A6C41314069D0D9D495 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F164B2D6B2D9E14A0AAA1F9 /* Pods_LetsChat.framework */,
+				7360248A23493D1E0106571F /* Pods_LetsChat_LetsChatUITests.framework */,
+				958F66BFCD8D568452858E7C /* Pods_LetsChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0473D43526203A5400880773 /* Build configuration list for PBXNativeTarget "LetsChat" */;
 			buildPhases = (
+				130749C92341BF5BAAD198DE /* [CP] Check Pods Manifest.lock */,
 				0473D40C26203A5300880773 /* Sources */,
 				0473D40D26203A5300880773 /* Frameworks */,
 				0473D40E26203A5300880773 /* Resources */,
+				0B005B2079895F6336D959BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0473D43826203A5400880773 /* Build configuration list for PBXNativeTarget "LetsChatTests" */;
 			buildPhases = (
+				BD8B64BB861E7C575466D77C /* [CP] Check Pods Manifest.lock */,
 				0473D41D26203A5400880773 /* Sources */,
 				0473D41E26203A5400880773 /* Frameworks */,
 				0473D41F26203A5400880773 /* Resources */,
@@ -172,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0473D43B26203A5400880773 /* Build configuration list for PBXNativeTarget "LetsChatUITests" */;
 			buildPhases = (
+				182E7C3DDB41BDC47E0D6D23 /* [CP] Check Pods Manifest.lock */,
 				0473D42826203A5400880773 /* Sources */,
 				0473D42926203A5400880773 /* Frameworks */,
 				0473D42A26203A5400880773 /* Resources */,
+				61AF3101FE0D7F1D846F9E73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +284,7 @@
 			files = (
 				0473D41B26203A5400880773 /* Preview Assets.xcassets in Resources */,
 				0473D41826203A5400880773 /* Assets.xcassets in Resources */,
+				04491D1F26203C8E00F35EB8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +303,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B005B2079895F6336D959BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetsChat/Pods-LetsChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetsChat/Pods-LetsChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LetsChat/Pods-LetsChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		130749C92341BF5BAAD198DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetsChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		182E7C3DDB41BDC47E0D6D23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetsChat-LetsChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61AF3101FE0D7F1D846F9E73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetsChat-LetsChatUITests/Pods-LetsChat-LetsChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetsChat-LetsChatUITests/Pods-LetsChat-LetsChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LetsChat-LetsChatUITests/Pods-LetsChat-LetsChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8B64BB861E7C575466D77C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetsChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0473D40C26203A5300880773 /* Sources */ = {
@@ -414,6 +567,7 @@
 		};
 		0473D43626203A5400880773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E944F4B045BED0AF63BC7B /* Pods-LetsChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -426,7 +580,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tejasfarera.LetsChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejasfarera.LetsChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -435,6 +589,7 @@
 		};
 		0473D43726203A5400880773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58A18BF27DCF93B1EC1FCF7 /* Pods-LetsChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,7 +602,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tejasfarera.LetsChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejasfarera.LetsChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,6 +611,7 @@
 		};
 		0473D43926203A5400880773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41A48D9B0358AD9CA7847C09 /* Pods-LetsChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +633,7 @@
 		};
 		0473D43A26203A5400880773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57BDD99CC6F442CE9AB0FF99 /* Pods-LetsChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +655,7 @@
 		};
 		0473D43C26203A5400880773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68A6DC1631BDF89964877DA /* Pods-LetsChat-LetsChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +675,7 @@
 		};
 		0473D43D26203A5400880773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F464710BC4FC3B2D9EE21E6 /* Pods-LetsChat-LetsChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
